@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/italiano.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    background-color: #9cd35e; 
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: 20px;
+    color: white;
+}
+
+.logo .green { color: #2d5a27; }
+.logo .red { color: #b22222; }
+
+nav {
+    background-color: #0000ff;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: red;
+}
+
+nav ul li a:last-child {
+    color: #00ff00; 
+}
+
+.pasta {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pasta img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 40px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.pasta {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.Ingredi {
+    background-color: red;  
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Ingredi img {
+    width: 80px;  
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.pastabild img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.content {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.steg {
+  background-color: #ff0000;
+  color: black;
+  width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.recept {
+    background-color: #ff0000;
+    color: black;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: block;
+}
+
+footer {
+    background-image: url(img/italiano.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
