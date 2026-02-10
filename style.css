@@ -15,7 +15,7 @@ header {
     padding: 20px;
 }
 
-.logo {
+.logga {
     background-color: #9cd35e; 
     padding: 10px;
     font-weight: bold;
@@ -24,41 +24,31 @@ header {
     color: white;
 }
 
-.logo .green { color: #2d5a27; }
-.logo .red { color: #b22222; }
+.logga .green { color: #2d5a27; }
+.logga .red { color: #b22222; }
 
 nav {
-    background-color: #0000ff;
-    flex-grow: 1;
+    background-color: blue;
     padding: 15px;
+    flex-grow: 1;
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
 }
 
-nav ul li a {
-    color: black;
+nav a {
     text-decoration: none;
     font-weight: bold;
+    color: lime;
+    text-decoration: underline;
 }
-
-nav ul li a.active {
+nav a:hover {
     color: red;
-}
-
-nav ul li a:last-child {
-    color: #00ff00; 
-}
-
-.pasta {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 .pasta img {
@@ -79,8 +69,9 @@ nav ul li a:last-child {
     background-color: red;  
     padding: 10px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
+
 }
 
 .Ingredi img {
@@ -94,7 +85,7 @@ nav ul li a:last-child {
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.content {
+.receptsec {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -119,6 +110,7 @@ nav ul li a:last-child {
     flex-direction: column;
     justify-content: flex-start;
     display: block;
+    border-radius: 20px;
 }
 
 footer {
@@ -131,4 +123,4 @@ footer {
     text-align: center;
     font-weight: bold;
     width: 300px;
-}
+}   
